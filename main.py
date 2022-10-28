@@ -62,4 +62,14 @@ for x in range(len(predicted)):
     print(f'therefore our weekly sales will be {nta*7} ghana cedis and our monthly sales will be {nta*30} ghana cedis')
 
 
+#ploting day against Qty_Sales
+plt.scatter(data['Day'],data['Qty_Sales'])
+plt.show()
 
+#ploting month against Qty_Sales
+plt.scatter(data['Month'],data['Qty_Sales'])
+plt.show()
+
+#ploting total amount against Qty_Sales
+plt.scatter(data['Total_Amt'],data['Qty_Sales'])
+plt.show()
